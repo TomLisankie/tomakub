@@ -1,1 +1,3 @@
-flatpak uninstall -y flathub md.obsidian.Obsidian
+#!/bin/bash
+
+sudo apt remove --purge -y obsidian
